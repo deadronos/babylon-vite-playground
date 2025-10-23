@@ -1,0 +1,29 @@
+{
+  "name": "babylon-vite-playground",
+  "version": "1.0.0",
+  "description": "A modern Babylon.js playground with Vite, Vitest, and TypeScript",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage"
+  },
+  "keywords": ["babylonjs", "vite", "typescript", "3d", "webgl"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babylonjs/core": "^8.33.0",
+    "@babylonjs/loaders": "^8.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@vitest/coverage-v8": "^4.0.2",
+    "jsdom": "^27.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vitest": "^4.0.2"
+  }
+}
